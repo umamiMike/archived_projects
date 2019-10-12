@@ -1,0 +1,4 @@
+#!/bin/bash
+
+root="/Users/mikechastain/doc/"
+editor="atom"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+  ls -R ~/doc
+else
+  if [ -z $2 ]; then
+    tail -n 5000 -r ~/doc/$1
+  else
+    tail -n $2 ~/doc/$1
+  fi
+fi

@@ -1,0 +1,14 @@
+#!/bin/bash
+#deletes the file
+source $HOME/bin/.journal
+
+file=$root$1
+
+
+echo "Do you really want to forget?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) rm $file; break;;
+        No ) exit;;
+    esac
+done

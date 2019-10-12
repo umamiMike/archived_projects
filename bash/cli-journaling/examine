@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+source ${BASH_SOURCE%/*}/.journal
+file=$root$1
+
+cat <<EOF > $file
+# $1
+
+# Description
+ -
+EOF
+$editor $file

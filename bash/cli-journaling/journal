@@ -1,0 +1,14 @@
+#!/bin/bash
+#command line usage
+#journal sitdown "I think that is a weird thing"
+source ${BASH_SOURCE%/*}/.journal
+
+file=$root$1
+timestamp=$(date)
+
+# echo $root$1
+# mydir='dirname $file'
+# echo $mydir
+# mkdir -p  $mydir
+
+printf "$timestamp  -- $2  \n" >> $file
