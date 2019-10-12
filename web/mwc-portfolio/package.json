@@ -1,0 +1,26 @@
+{
+  "name": "mwc-portfolio",
+  "version": "1.0.0",
+  "description": "The Evolving Portfolio of Michael W Chastain",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umamiMike/mwc-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Michael Chastain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umamiMike/mwc-portfolio/issues"
+  },
+  "homepage": "https://github.com/umamiMike/mwc-portfolio#readme"
+}
