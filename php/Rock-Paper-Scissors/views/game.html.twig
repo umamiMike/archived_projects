@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Address Book</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Rock Paper Scissors</h1>
+
+            <form action="/results" method="post">
+                <div class="form-group">
+                    <label for="player1">Player 1</label><br>
+                    <input type="radio" name="player1" value= "rock">Rock<br>
+                    <input type="radio" name="player1" value= "paper">Paper<br>
+                    <input type="radio" name="player1" value= "scissors">Scissors<br>
+                </div>
+                <div class="form-group">
+                    <label for="player2">Player 2</label><br>
+                    <input type="radio" name="player2" value= "rock">Rock<br>
+                    <input type="radio" name="player2" value= "paper">Paper<br>
+                    <input type="radio" name="player2" value= "scissors">Scissors<br>
+                </div>
+                <button type="submit">Play the game</button>
+            </form>
+        </div>
+    </body>
+</html>
