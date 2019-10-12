@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1> list of all stylists </h1>
+        <br>
+        {% if stylists is not empty %}
+            <ul class="list-group">
+            {% for stylist in stylists %}
+            <li class="list-group-item"> <a href="/stylist/{{ stylist.getId }}">{{ stylist.getName }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+    </div>
+        <div class="container">
+            <form class="form-horizontal" action="/stylist/{{ stylist.getId }}"  method="post">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Create a stylist account</legend>
+
+    <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="stylist_name">stylist_name</label>
+          <div class="col-md-5">
+          <input id="stylist_name" name="stylist_name" type="text" placeholder="Stylist Name" class="form-control input-md">
+
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="singlebutton">save client</label>
+          <div class="col-md-4">
+            <button type = "submit" id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+
+    </fieldset>
+</form>
+
+        </div>
+    </div>
+    <div class = 'container'>
+        <form action='/delete_stylists' method='post'>
+            <button type='submit'>Delete All Stylists</button>
+        </form>
+    </div>
+  </body>
+</html>

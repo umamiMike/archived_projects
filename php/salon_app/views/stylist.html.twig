@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style media="screen">
+        .container{
+            width:500px;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="container col-md-6">
+          <h1>List of {{ stylist.getName }}'s clients. </h1>
+          <br>
+          {% if clients is not empty %}
+              <ul class="list-group">
+              {% for client in clients %}
+              <li class="list-group-item"> {{ client.getName }}</li>
+              {% endfor %}
+              </ul>
+          {% endif %}
+
+      </div>
+      <div class="container col-md-6">
+          <form class="form-horizontal" action="/stylist/{{ stylist.getId }}" method="post">
+              <fieldset>
+
+              <!-- Form Name -->
+              <legend>create_client</legend>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="client_name">client name</label>
+                <div class="col-md-5">
+                <input id="client_name" name="client_name" type="text" placeholder="client name" class="form-control input-md">
+
+                </div>
+              </div>
+
+              <!-- Button -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton">save client</label>
+                <div class="col-md-4">
+                  <button id="singlebutton" name="singlebutton" class="btn btn-primary">Button</button>
+                </div>
+              </div>
+
+              </fieldset>
+          </form>
+      </div>
+  </body>
+</html>

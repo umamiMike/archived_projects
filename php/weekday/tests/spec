@@ -1,0 +1,35 @@
+Spec for day finder
+//Find today's day
+//Find tomorrow's day
+//find next month's day
+//find next year's day
+//find last year's day
+
+
+888,88,8 hundred8 eighty8
+
+eighty eight thousand eight hundred eighty eight
+
+[7,7,7,7,7,7,7,7,7,7]
+
+how to name ["thousand","million","billion"]
+[(ones),(tens),(hundreds)]
+
+if (Counter % 3 = 2) {
+    counter/3 = $var
+    thousand_array[$var]
+}
+raw input: 87,654,321
+reverse the array : 12345678
+string split to create  [1,2,3,4,5,6,7,8]
+chunk the array to make:  numberArray = array1()[1,2,3],array2[4,5,6],array3[7,8]]
+for each in number array as placeArray
+$counter++
+$output = thousands[$counter]
+$placearray_counter = 0
+for each in placeArray
+{
+$placearray_counter++
+}
+
+for (i = 0; i < maxvalue; i++)

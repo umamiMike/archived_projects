@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="C549B90A-1567-41FE-BEB5-D8D852D24CBC" Version="1.1">
+   <Notes>
+      <Note Width="10.9131" FontSize="12" ID="0" Position="469.6,138.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>/</String>
+      </Note>
+      <Note Width="45.1904" FontSize="12" ID="1" Position="1416.8,235.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylists</String>
+      </Note>
+      <Note Width="42.3828" FontSize="12" ID="2" Position="1472.1,284.2">
+         <Appearance>
+            <Alignment>Right</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>name </String>
+      </Note>
+      <Note Width="66.8335" FontSize="12" ID="3" Position="1447.6,302.2">
+         <Appearance>
+            <Alignment>Right</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>opt: rating </String>
+      </Note>
+      <Note Width="43.0908" FontSize="12" ID="5" Position="1413.7,386.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>clients</String>
+      </Note>
+      <Note Width="42.3828" FontSize="12" ID="7" Position="1462.9,433.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>name </String>
+         <ConnectedNoteIDs>11</ConnectedNoteIDs>
+      </Note>
+      <Note Width="55.6763" FontSize="12" ID="8" Position="1449.6,454.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylist_id</String>
+      </Note>
+      <Note Width="17.2119" FontSize="12" ID="9" Position="1491.8,264.7">
+         <Appearance>
+            <Alignment>Right</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>id</String>
+      </Note>
+      <Note Width="120.715" FontSize="12" ID="10" Position="1330.9,192.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>hair_salon database</String>
+      </Note>
+      <Note Width="17.2119" FontSize="12" ID="11" Position="1477.7,416.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>id</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      </Note>
+      <Note Width="129.761" FontSize="12" ID="13" Position="67.0,129.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylist create/edit form</String>
+      </Note>
+      <Note Width="64.0625" FontSize="12" ID="16" Position="457.6,382.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>/stylist/{id}</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="143.079" FontSize="12" ID="17" Position="491.6,418.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>A list of clients of stylist2</String>
+      </Note>
+      <Note Width="106.97" FontSize="12" ID="18" Position="491.5,156.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>List of ALL stylists</String>
+      </Note>
+      <Note Width="45.8862" FontSize="12" ID="19" Position="529.4,181.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylist1</String>
+      </Note>
+      <Note Width="45.8862" FontSize="12" ID="20" Position="528.7,200.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylist2</String>
+         <ConnectedNoteIDs>16</ConnectedNoteIDs>
+      </Note>
+      <Note Width="87.8296" FontSize="12" ID="21" Position="579.4,670.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>/stylist/{id}/edit</String>
+         <ConnectedNoteIDs>22</ConnectedNoteIDs>
+      </Note>
+      <Note Width="117.896" FontSize="12" ID="22" Position="672.2,517.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Button to Edit stylist</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="140.259" FontSize="12" ID="23" Position="617.4,731.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Stylist Create/Edit Form</String>
+      </Note>
+      <Note Width="43.7866" FontSize="12" ID="24" Position="553.6,440.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>client1</String>
+      </Note>
+      <Note Width="43.7866" FontSize="12" ID="25" Position="551.6,455.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>client2</String>
+      </Note>
+      <Note Width="63.3667" FontSize="12" ID="27" Position="700.4,132.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>index.twig</String>
+      </Note>
+      <Note Width="121.753" FontSize="24.5" ID="28" Position="442.3,53.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Controller</String>
+      </Note>
+      <Note Width="41.687" FontSize="12" ID="29" Position="929.1,46.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Model</String>
+      </Note>
+      <Note Width="61.5479" FontSize="24" ID="31" Position="107.9,22.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>View</String>
+      </Note>
+      <Note Width="43.9905" FontSize="12" ID="32" Position="721.7,403.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>form to create client</String>
+      </Note>
+      <Note Width="64.7583" FontSize="12" ID="33" Position="717.2,378.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>stylist twig</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="98.6328" Faded="No" Height="95.3125" Sticky="Yes" ID="4" Position="1416.8,236.5" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="98.6328" Faded="No" Height="95.3125" Sticky="Yes" ID="6" Position="1413.7,388.5" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="206.445" Faded="No" Height="312.891" Sticky="Yes" ID="12" Position="1319.9,181.9" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="303.212" Faded="No" Height="159.959" Sticky="Yes" ID="14" Position="464.9,137.6" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="350.08" Faded="No" Height="170.29" Sticky="Yes" ID="15" Position="450.1,379.6" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="210.156" Faded="No" Height="154.688" Sticky="Yes" ID="26" Position="577.7,670.3" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="429.287" Faded="No" Height="824.358" Sticky="Yes" ID="30" Position="439.1,52.2" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="41BFBDD0-5D37-416C-9447-0D2153E6144D" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="C0B70D17-A0B4-4681-BE5B-3D6ACF83D23D" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="5095D23C-35AA-4D7B-9216-9EB8A1C21837" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="16CB407C-E0C6-4FCB-B105-CCFECE0DDD54" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="7BF0185F-F9E7-413F-84FD-BE4230DB5DA0" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="785D1DFD-91C8-4DC2-AB7A-8A9822DD4B46" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="B34A8554-0D5D-429E-A130-3F45F317CA86" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+      <LeftToRight>Yes</LeftToRight>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
