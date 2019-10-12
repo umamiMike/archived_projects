@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <title> Places I've Been</title>
+  </head>
+  <body>
+      <h1>Places I've Been</h1>
+      {% if places is not empty %}
+          <p>Here are the places you've been:</p>
+          <ul>
+              {% for place in places %}
+                  <li>{{ place.getDesc }}</li>
+                  <img src='{{ place.getImgPath }}' width='200px'></li>
+                  <li>{{ place.getPlace}}</li>
+
+              {% endfor %}
+          </ul>
+      {% endif %}
+
+      <form action='/places' method='post'>
+        <label for='img_path'>Image</label>
+        <input id='img_path' name='img_path' type='text'>
+
+        <label for='place'>Place Names</label>
+        <input id='place' name='place' type='text'>
+
+        <label for='desc'>Place Description</label>
+        <input id='desc' name='desc' type='text'>
+
+        <button type='submit'>Add place </button>
+    </form>
+    <form action='/delete_places' method='post'>
+        <button type='submit'>Clear</button>
+    </form>
+  </body>
+</html>
