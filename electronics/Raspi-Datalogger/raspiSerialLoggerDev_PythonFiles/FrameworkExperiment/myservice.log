@@ -1,0 +1,24 @@
+2015-02-25 22:07:21,236 INFO     The counter is now 0
+2015-02-25 22:07:21,440 INFO     This is a print
+2015-02-25 22:07:26,442 INFO     The counter is now 1
+2015-02-25 22:07:26,442 INFO     This is a print
+2015-02-25 22:07:31,442 INFO     The counter is now 2
+2015-02-25 22:07:31,442 INFO     This is a print
+2015-02-25 22:07:36,443 ERROR    Traceback (most recent call last):
+2015-02-25 22:07:36,443 ERROR      File "J:\GDrive\Electronics\AutoclaveDatalogger\raspiSerialLoggerDev_PythonFiles\FrameworkExperiment\myservice.py", line 62, in <module>
+    j = 1/0  # cause an exception to be thrown and the program to exit
+2015-02-25 22:07:36,443 ERROR    ZeroDivisionError: division by zero
+2015-02-25 22:07:40,876 ERROR    Traceback (most recent call last):
+2015-02-25 22:07:40,901 ERROR      File "<pyshell#39>", line 1, in <module>
+    myLogger
+2015-02-25 22:07:40,901 ERROR    NameError: name 'myLogger' is not defined
+2015-02-25 22:08:31,362 INFO     The counter is now 0
+2015-02-25 22:08:31,362 INFO     This is a print
+2015-02-25 22:08:36,363 INFO     The counter is now 1
+2015-02-25 22:08:36,363 INFO     This is a print
+2015-02-25 22:08:41,363 INFO     The counter is now 2
+2015-02-25 22:08:41,363 INFO     This is a print
+2015-02-25 22:08:46,363 ERROR    Traceback (most recent call last):
+2015-02-25 22:08:46,364 ERROR      File "J:\GDrive\Electronics\AutoclaveDatalogger\raspiSerialLoggerDev_PythonFiles\FrameworkExperiment\myservice.py", line 62, in <module>
+    j = 1/0  # cause an exception to be thrown and the program to exit
+2015-02-25 22:08:46,364 ERROR    ZeroDivisionError: division by zero
