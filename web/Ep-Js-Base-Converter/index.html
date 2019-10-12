@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/scripts.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="baseconvert">
+                <h2>Convert</h2>
+                <div class="form-group">
+                    <label for="target">enter the number to convert</label>
+                    <input type="text" id="target">
+                </div>
+                <h2>From</h2>
+                <div class="form-group">
+                    <select id="from" multiple class="form-control">
+                      <option  value="2">Binary</option>
+                      <option  value="3">Ternary</option>
+                      <option  value="10">Decimal</option>
+                      <option  value="16">Hexadecimal</option>
+                    </select>
+                </div>
+                <h2>To</h2>
+                <div class="form-group">
+                    <select id="to" multiple class="form-control">
+                      <option value="2">Binary</option>
+                      <option value="3">Ternary</option>
+                      <option value="10">Decimal</option>
+                      <option value="16">Hexadecimal</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">convert!</button>
+            </form>
+            <div id="result">
+                <h2><span class="output"></span></h2>
+            </div>
+
+        </div>
+
+    </body>
+</html>
