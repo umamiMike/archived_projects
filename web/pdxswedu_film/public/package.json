@@ -1,0 +1,16 @@
+{
+  "name": "fortheloveoffilm",
+  "version": "1.0.0",
+  "description": "application prototype for pdxstartupweekend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "normalize.css": "^4.0.0",
+    "videogular": "~1.4.1"
+  }
+}
