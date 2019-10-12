@@ -1,0 +1,11 @@
+<ng-include src ="'partials/nav.html'"></ng-include>
+<div class="home"><h1> Find your name in the list</h1></div>
+<div class="home">
+  <div ng-repeat="student in students | orderBy: 'name' | filter: {signedIn: filterBy}  " class = "studentCard col-md-2">
+  <h4>  {{student.name}} </h4>
+  <br>
+  <p>{{getFirstName(student)}} {{signedInText(student.signedIn)}}</p>
+  <button class = "btn btn-danger"  ng-show = "student.signedIn == true" ng-click="toggleSignedIn(student)">Sign Out</button>
+  <button class = "btn btn-warning"  ng-show = "student.signedIn == false "ng-click="toggleSignedIn(student)">Sign In</button>
+  </div>
+</div>

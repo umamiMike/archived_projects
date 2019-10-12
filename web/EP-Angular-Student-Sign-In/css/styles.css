@@ -1,0 +1,34 @@
+
+.studentCard {
+  /*width:100px;*/
+  /*height:100px;*/
+  padding: 8px;
+  margin:4px;
+  background-color:#FFEA9E;
+  /*float:left;*/
+  border-radius: 2px;
+}
+
+.studentCard p h4{
+  font-size: .8em;
+  /*padding: 8px;*/
+  white-space: pre-wrap;      /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap;     /* Opera <7 */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  word-wrap: break-word;      /* IE */
+}
+.nav .btn{
+  height:20px;
+  padding:2px;
+}
+.studentCard .btn{
+  float:right;
+
+  width:90px;
+
+}
+.home{
+    margin-left: 50px;
+    margin-top:10px;
+}
