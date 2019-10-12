@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Create an Ad</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <form name="ad" action="/show_all" method="post">
+        <div class="form-group">
+
+
+        <label for="model">Vehicle Model</label>
+        <input type="text" id = "model" name="model">
+
+        <label for="price">Price:</label>
+        <input type="text"  id = "price" name="price">
+
+        <label for="image">Image URL </label>
+        <input type="text"  id = "image" name="image">
+
+        <label for="miles">Mileage</label>
+        <input type="number"  id = "miles" name="miles">
+
+        <button name="submit">Submit</button>
+        </div>
+      </form>
+      <form action='/delete_ads' method='get'>
+        <button type='submit'>Clear All</button>
+      </form>
+  </div>
+  </body>
+</html>
