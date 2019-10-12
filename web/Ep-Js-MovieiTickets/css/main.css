@@ -1,0 +1,99 @@
+/**, *:before, *:after {
+	box-sizing: border-box;
+}*/
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	color: #000;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*Address Book Css ================*/
+
+#show-contact {
+	display: none;
+	font-family:initial;
+	border-style:dashed;
+	border-width:thin;
+	margin:16px;
+	padding:16px;
+	background:khaki;
+}
+
+.contact {
+cursor: pointer;
+color: #0088cc;
+}
+
+.contact:hover {
+text-decoration: underline;
+}
+
+/* layout =================== */
+
+.site__title, nav, section, .footer__content {
+	display: block;
+	margin-left: 10%;
+	margin-right: 20%;
+	/*width: 60%;*/
+}
+
+
+header {
+    background: #ebaa7f;
+	border-bottom: 1px solid #db6e25;
+	padding: 10px 0 10px 0;
+	margin-bottom: 10px;
+}
+
+pre {
+	overflow: auto;
+	margin-top: 16px;
+	padding: 16px;
+	font-size: 1.3em;
+	/*line-height: 1.2em;*/
+	border: none;
+	text-indent: none;
+	white-space: pre-wrap;                 /* CSS3 browsers  */
+white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+white-space: -pre-wrap;                /* Opera 4 thru 6 */
+white-space: -o-pre-wrap;              /* Opera 7 and up */
+word-wrap: break-word;                 /* IE 5.5+ and up */
+/* overflow-x: auto; */                /* Firefox 2 only */
+/* width: 99%; */		       /* only if needed */
+}
+
+
+
+.site__footer {
+	background: #d5803b;
+	border-top: 1px solid #ebaa7f;
+}
+
+.footer__content {
+	padding: 20px;
+	color: #fff;
+}
+
+/* typography =============== */
+
+.site__title {
+	color: #fffbee;
+	font-size: 2em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	/*max-width: 576px;*/
+	padding-left: 8px
+}
