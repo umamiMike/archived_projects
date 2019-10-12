@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="5E0BF865-2DA8-4FC7-8CEF-36B2809D6C53" Version="1.1">
+   <Notes>
+      <Note Width="80.2246" FontSize="14" ID="0" Position="524.5,192.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>pizza shop</String>
+      </Note>
+      <Note Width="45.0684" FontSize="14" ID="1" Position="392.1,364.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Pizza</String>
+         <ConnectedNoteIDs>13, 20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="75.2441" FontSize="12" ID="2" Position="411.4,439.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,11</FormatRange>
+         </Formatting>
+         <String>toppings []</String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      </Note>
+      <Note Width="120.007" FontSize="12" ID="3" Position="544.0,214.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>avail_toppings array</String>
+         <ConnectedNoteIDs>2, 5, 25</ConnectedNoteIDs>
+         <PointsToNoteIDs>2</PointsToNoteIDs>
+      </Note>
+      <Note Width="102.954" FontSize="12" ID="4" Position="396.4,391.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,16</FormatRange>
+         </Formatting>
+         <String>base  price = 0;</String>
+         <ConnectedNoteIDs>22</ConnectedNoteIDs>
+      </Note>
+      <Note Width="57.1167" FontSize="14" ID="5" Position="754.5,69.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>topping</String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
+         <PointsToNoteIDs>3</PointsToNoteIDs>
+      </Note>
+      <Note Width="103.223" FontSize="12" ID="6" Position="772.5,88.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>{pepperoni: $.50}</String>
+      </Note>
+      <Note Width="31.7505" FontSize="12" ID="10" Position="410.8,417.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,4</FormatRange>
+         </Formatting>
+         <String>size</String>
+      </Note>
+      <Note Width="42.9443" FontSize="14" ID="11" Position="218.9,166.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">0,4</FormatRange>
+         </Formatting>
+         <String>User</String>
+      </Note>
+      <Note Width="40.9912" FontSize="12" ID="12" Position="222.7,208.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Name</String>
+      </Note>
+      <Note Width="73.1567" FontSize="12" ID="13" Position="242.7,230.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>pizza_order</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+         <PointsToNoteIDs>1</PointsToNoteIDs>
+      </Note>
+      <Note Width="87.1338" FontSize="12" ID="14" Position="774.8,111.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>{brocolli: $1.0}</String>
+      </Note>
+      <Note Width="22.8149" FontSize="12" ID="15" Position="1035.9,182.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Ux</String>
+      </Note>
+      <Note Width="144.482" FontSize="12" ID="16" Position="1043.0,245.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Order Pizza Button Click</String>
+      </Note>
+      <Note Width="208.594" FontSize="12" ID="17" Position="1089.1,282.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Dropdown of available toppings containing price</String>
+      </Note>
+      <Note Width="123.511" FontSize="12" ID="19" Position="945.3,364.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Person goes to page</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="20" Position="938.3,418.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>person chooses to order a pizza</String>
+         <ConnectedNoteIDs>1, 19, 21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.384" FontSize="12" ID="21" Position="938.3,485.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>they have to choose a size</String>
+         <ConnectedNoteIDs>20, 22-24</ConnectedNoteIDs>
+         <PointsToNoteIDs>22-24</PointsToNoteIDs>
+      </Note>
+      <Note Width="36.792" FontSize="12" ID="22" Position="875.8,565.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>small</String>
+         <ConnectedNoteIDs>4, 21, 25</ConnectedNoteIDs>
+         <PointsToNoteIDs>25</PointsToNoteIDs>
+      </Note>
+      <Note Width="52.1729" FontSize="12" ID="23" Position="1011.7,559.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>medium</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="35.3882" FontSize="12" ID="24" Position="1125.8,546.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>large</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="25" Position="728.4,612.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>they are give a selection of toppings</String>
+         <ConnectedNoteIDs>3, 22, 26</ConnectedNoteIDs>
+         <PointsToNoteIDs>26</PointsToNoteIDs>
+      </Note>
+      <Note Width="130.505" FontSize="12" ID="26" Position="637.5,683.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>they choose a topping</String>
+         <ConnectedNoteIDs>25</ConnectedNoteIDs>
+      </Note>
+      <Note Width="71.7529" FontSize="12" ID="27" Position="649.2,746.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>this adds a </String>
+      </Note>
+      <Note Width="81.5552" FontSize="12" ID="28" Position="403.3,483.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>changeSize()</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="29" Position="425.0,506.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>adds size price to base price of pizza</String>
+      </Note>
+      <Note Width="80.8594" FontSize="12" ID="30" Position="405.0,568.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>addTopping()</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="31" Position="443.3,588.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>add the selected topping to the toppings array</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="33" Position="588.3,243.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>avail_sizes_array[”small,”medium”]</String>
+      </Note>
+      <Note Width="101.831" FontSize="12" ID="34" Position="403.4,653.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>removeTopping()</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="35" Position="425.9,677.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>add the selected topping to the toppings array</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="227.656" Faded="No" Height="387.969" Sticky="Yes" ID="7" Position="389.8,360.4" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="150" Faded="No" Height="91.6667" Sticky="Yes" ID="8" Position="524.5,195.0" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="143.066" Faded="No" Height="126.562" Sticky="Yes" ID="9" Position="743.6,58.7" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="112.5" Faded="No" Height="95.3125" Sticky="Yes" ID="18" Position="214.2,167.6" Shadow="Yes">
+         <Appearance>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+      <Shape Width="183.854" Faded="No" Height="76.9792" Sticky="Yes" ID="32" Position="400.8,478.7" Shadow="Yes">
+         <Appearance>
+            <Fill>0.901961 0.901961 0.901961</Fill>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="41BFBDD0-5D37-416C-9447-0D2153E6144D" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="C0B70D17-A0B4-4681-BE5B-3D6ACF83D23D" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="5095D23C-35AA-4D7B-9216-9EB8A1C21837" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="16CB407C-E0C6-4FCB-B105-CCFECE0DDD54" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="7BF0185F-F9E7-413F-84FD-BE4230DB5DA0" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="785D1DFD-91C8-4DC2-AB7A-8A9822DD4B46" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="B34A8554-0D5D-429E-A130-3F45F317CA86" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+      <LeftToRight>Yes</LeftToRight>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
