@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Word Occurence Results</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<style media="screen">
+    .bold{
+
+        font-weight: bold;
+        color: darkred;
+    }
+</style>
+    </head>
+    <body>
+        <div class="container">
+                <h1>There are {{ result["no_of_occurences"] }} occurences of {{ result["input_string"] }} </h1>
+                <p>
+                {% for words in result["string_array"] %}
+
+                    {% if words == result["input_string"] %}
+                <span class = "bold"> {{  words }}</span>
+
+                    {%  else %}
+                        {{  words }}
+                    {% endif %}
+
+                {%  endfor %}
+            </p>
+        </div>
+    </body>
+</html>

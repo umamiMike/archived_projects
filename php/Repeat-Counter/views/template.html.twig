@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Word Occurence Form</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <style>
+        body{
+            background: grey;
+            overflow: auto;
+        }
+        .container{
+            background: white;
+            border-radius: 2px;
+            height: 100%;
+        }
+        h1 {
+            margin: 40px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            background: lightgrey;
+            padding: 40px;
+            margin: 30px;
+            border-radius: 20px;
+        }
+        h2 small {
+            padding: 30px;
+        }
+        .submit_form {
+            margin-top: 20px;
+        }
+        h1 span {
+            background: #c7f99d;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .btn{
+            background: #a0ce9a;
+        }
+
+        #input1container{
+
+            width: 300px;
+        }
+        #input2container{
+
+            float:right;
+            width: 100%;
+        }
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="">Does a word exist?<br><small>We will never know...or will we?</small><br><small>Play the game and find out.</small></h2>
+            <div class="submit_form">
+                <form id="form_id" action="/results">
+                    <div class="form-group" id = "input1container">
+                        <label for="textInput">Word to check: </label>
+                        <input type="text" class="form-control" name="input1" id="input1" placeholder = "does the word you type here..." required>
+                    </div>
+                    <div class="form-group" id="input2container">
+                        <label for="textInput">Text to Search Within: </label>
+                        <textarea rows="8" class="form-control" name="input2" id="input2" placeholder = "Exist here?  If so how many times?  place a long string of words in here." required></textarea>
+                    </div>
+                    <div class="form-group" id="button">
+                        <button type="submit" class="btn btn-default">Search within</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
