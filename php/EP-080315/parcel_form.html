@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Parcel form </title>
+  <link rel="stylesheet" type="text/css" href="https://maxscnd.bootstracdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Your Parcel Information</h1>
+    <form action="parcel.php">
+      <div class="form-group">
+        <label for="length">Enter Length</label>
+        <input id="length" name="length" class="form-control" type="number" min="0" required>
+      </div>
+      <div class="form-group">
+        <label for="width">Enter Width</label>
+        <input id="width" name="width" class="form-control" type="number" min="0" required>
+      </div>
+      <div class="form-group">
+        <label for="height">Enter Height</label>
+        <input id="height" name="height" class="form-control" type="number" min="0" required>
+      </div>
+      <div class="form-group">
+        <label for="weight">Enter Weight</label>
+        <input id="weight" name="weight" class="form-control" type="number" min="0" required>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="shipping">Pick you shipping method</label>
+        <br>
+        <input id="shipping" name="shipping" class="form-control" type="radio" value="Regular" required>Regular
+        <br>
+        <input id="shipping" name="shipping" class="form-control" type="radio" value="SecondDay">Second Day
+        <br>
+        <input id="shipping" name="shipping" class="form-control" type="radio" value="Overnight">Overnight
+      </div>
+      </div>
+      <button type="submit" class="btn-success">Submit</button>
+    </form>
+  </body>
+  </div>
+
+</html>
